@@ -10,7 +10,7 @@ gem 'will_paginate',           '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass',          '3.3.7'
 gem 'puma',                    '3.9.1'
-gem 'sass-rails',             '5.0.6'
+gem 'sass-rails',              '5.0.6'
 gem 'uglifier',                '3.2.0'
 gem 'coffee-rails',            '4.2.2'
 gem 'jquery-rails',            '4.3.1'
@@ -38,8 +38,8 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
-  gem 'fog', '1.42'
+  gem 'pg',   '0.20.0'
+  gem 'fog',  '1.42'
 end
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります
