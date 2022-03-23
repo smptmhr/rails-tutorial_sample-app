@@ -4,7 +4,7 @@ class User < ApplicationRecord
                                   foreign_key: "follower_id",
                                   dependent:   :destroy
 
-　#following配列はfollwed_idの集合
+  #following配列はfollwed_idの集合
   has_many :following, through: :active_relationships, source: :followed 
   
   attr_accessor :remember_token, :activation_token, :reset_token
